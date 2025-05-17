@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3.5em;
+    text-align: start;
+    color: #6BD1FF;
+    margin-bottom: 6px;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    text-align: start;
+    margin-top: 0;
+}
+
+hr{
+    border: 0;
+    height: 3px;
+    background: #8a8989;
+    position: fixed;
+    bottom: 100px;
+    width: 70%;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+    font-style: arial;
+    font-size: 14px;
+    color: rgb(214, 214, 214);
+}
+
+.bodyPrincipal{
+    background: #090979;
+    background: linear-gradient(180deg,rgba(9, 9, 121, 1) 0%, rgba(0, 0, 0, 1) 35%);
+    margin: 0 auto;
+    padding-top: 50px;
+    max-width: 70%;
+    color: #fff;
+}
+
+.bodySecundario{
+    background: black;
+    margin: 0 auto;
+    padding-top: 50px;
+    max-width: 70%;
+    color: #fff;
+}	
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+.fotoPessoal{
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+    border-top: 5px double #6BD1FF;
+    border-right: 5px double #6BD1FF;
+}
+
+.linhasVerticais{
+    max-width: 60%;
+    background: repeating-linear-gradient(-60deg,
+        rgba(255, 255, 255, 0.61) 0px, 
+        rgba(255, 255, 255, 0.61) 1px,   
+        transparent 2px,    
+        transparent 12px 
+        );
+}
+
+.botao{
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #6BD1FF;
+    cursor: pointer;
+    width: 40%;
+    font-weight: bold;
+}
+
+.textoAzul{
+    color: #6BD1FF;
+}
