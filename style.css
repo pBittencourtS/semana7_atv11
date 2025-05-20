@@ -33,6 +33,16 @@ p{
     color: rgb(214, 214, 214);
 }
 
+a{
+    transition-duration: 0.2s;
+    border-radius: 50%;
+}
+
+a:hover{
+    background-color: #6bd0ff73;
+    
+}
+
 .bodyPrincipal{
     background: #090979;
     background: linear-gradient(180deg,rgba(9, 9, 121, 1) 0%, rgba(0, 0, 0, 1) 35%);
@@ -72,8 +82,9 @@ p{
     width: 300px;
     height: auto;
     border-radius: 10%;
-    border-top: 5px double #6BD1FF;
-    border-right: 5px double #6BD1FF;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    box-shadow: 2px -2px #6BD1FF;
 }
 
 .linhasVerticais{
@@ -86,6 +97,10 @@ p{
         );
 }
 
+.botao:hover{
+    background-color: #6bd0ff73;
+}
+
 .botao{
     padding: 12px;
     border-radius: 8px;
@@ -94,8 +109,10 @@ p{
     cursor: pointer;
     width: 40%;
     font-weight: bold;
+    transition-duration: 0.2s
 }
 
 .textoAzul{
     color: #6BD1FF;
 }
+
